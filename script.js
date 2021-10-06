@@ -1,3 +1,4 @@
+// As funções seguintes adicionam a página elementos passados pelo usúario, e verifica se os campos estão preenchidos
 async function addNote(){
     var newNode = document.createElement('div');
     var title = document.getElementsByClassName("card-title-input")[0];
