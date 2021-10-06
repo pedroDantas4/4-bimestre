@@ -25,7 +25,7 @@ async function addNote(){
     }
     
 }
-async function addToDoList(){
+async function addList(){
     var newNode = document.createElement('div');
     var title = document.getElementsByClassName("card-title-input")[0];
 
